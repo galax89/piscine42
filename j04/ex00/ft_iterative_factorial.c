@@ -22,7 +22,7 @@ int		ft_iterative_factorial(int nb)
 
 	if (nb = 1)
 		return (1);
-	
+						
 	if (nb > 1)
 	{
 		nb--;
@@ -31,8 +31,8 @@ int		ft_iterative_factorial(int nb)
 	return (fac);
 }
 // évidemment le main n'est pas à rendre dans le repertoire (abrégé repo pour la suite)
-int 	main(void)
-{
-	ft_iterative_factorial(10); //on test avec nb = 10
-	return (0);
-}
+int		main(void)
+ {
+ 	ft_iterative_factorial(10); //on test avec nb = 10
+ 	return (0);
+}				}
