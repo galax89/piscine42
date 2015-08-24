@@ -1,0 +1,3 @@
+pour les exercices ouu l'on vous demande de rendre une fonction vous ne devez jamais push le main avec.
+Par exemple danc cet exo seul le "ft_print_alphabet.c" devra etre rendu. (la moulinette utilise sa propre fonction
+ft_putchar pour compiler).

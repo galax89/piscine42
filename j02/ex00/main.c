@@ -6,14 +6,14 @@
 /*   By: mlapeyre <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2015/08/24 13:26:38 by mlapeyre          #+#    #+#             */
-/*   Updated: 2015/08/24 13:40:40 by mlapeyre         ###   ########.fr       */
+/*   Updated: 2015/08/24 15:40:35 by mlapeyre         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-void ft_print_alphabet();
+void	ft_print_alphabet(void);
 
-int		main()
+int		main(void)
 {
-	ft_print_alphabet();
-	return(0);
+	ft_print_alphabet(void);
+	return (0);
 }
