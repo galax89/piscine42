@@ -6,7 +6,7 @@
 /*   By: mlapeyre <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2015/08/19 22:13:09 by mlapeyre          #+#    #+#             */
-/*   Updated: 2015/08/20 10:03:06 by mlapeyre         ###   ########.fr       */
+/*   Updated: 2015/08/27 16:22:33 by mlapeyre         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,10 +17,9 @@ char	*ft_strcpy(char *dest, char *src)
 	i = 0;
 	while (src[i] != '\0')
 	{
-		src[i] = dest[i];
+		dest[i] = src[i];
 		i++;
 	}
-	if (src[i] == '\0')
-		src[i] = dest[i]
+	dest[i] = '\0'
 	return (dest);	
 }
